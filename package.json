@@ -1,0 +1,15 @@
+{
+  "name": "api_newman_jenkins",
+  "version": "1.0.0",
+  "description": "api automation run by jenkins",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "API_test_prod": "newman run test/Test Demo.postman_collection"
+  },
+  "author": "Sumit Das",
+  "dependencies": {
+    "newman": "^4.5.7"
+  }
+}
