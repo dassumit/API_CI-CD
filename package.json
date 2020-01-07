@@ -6,7 +6,7 @@
     "test": "test"
   },
   "scripts": {
-    "API_test_prod": "newman run test/Test_Demo.postman_collection"
+    "API_test_prod": "newman run Test_Demo.postman_collection"
   },
   "author": "Sumit Das",
   "dependencies": {
